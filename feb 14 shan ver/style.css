@@ -1,0 +1,577 @@
+/*altering the default value of a browsers padding and margin*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*the div of the asking where the viewer is ready for continueing the website*/
+.Readydiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: ease-in-out 200ms ;
+}
+
+/*hide div using js*/
+.hideReadydiv {
+    transform: translate(-50%, -50%) scale(0);
+}
+
+/*styling the click me button*/
+#openContentbtn {
+    width: 150px;
+    height: 50px;
+    font-size: 22pt;
+    font-family: sans-serif;
+    border: none;
+    background:#f6ae99;
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    border-radius: 4px;
+}
+
+/*When you hover the click me button it has an effect*/
+#openContentbtn:hover {
+    color: white;
+    box-shadow: inset 150px #f29074;
+}
+
+/*the box where I'll be nesting everything like a container*/
+.Contentbox {
+    width: 480px;
+    height: 400px;
+    background-color: #f6ae99;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    box-shadow: 2px 2px 4px;
+    transition: ease-in-out 200ms;
+    text-align: center;
+}
+
+/*The h2 quoting hello there*/
+.Contentbox h2 {
+    padding-top: 30pt;
+    font-family: sans-serif;
+    font-size: 24pt;
+}
+
+/*the by jayson quoted*/
+.by-jayson {
+    Padding-top: 1px;
+    Padding-bottom: 100px;
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+/*shows the contentbox*/
+.ShowContentbox {
+    transform: translate(-50%, -50%)scale(1);
+}
+
+/*the button where it say hii!! where it'll ask who are you to me section*/
+.open-to-me {
+    width: 150px;
+    height: 50px;
+    font-size: 22pt;
+    font-family: sans-serif;
+    border: none;
+    border-width: 1px;
+    background:#f29074;
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+    border-radius: 4px;
+}
+
+/*when you hover to hi btn it'll turn to this settings*/
+.open-to-me:hover {
+    box-shadow: inset 150px 50px #f28a6c;
+    color: white;
+}
+
+/*the part where who are they to me*/
+.Who-Relationship {
+    width: 480px;
+    height: 400px;
+    background-color: #f6ae99;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    box-shadow: 2px 2px 4px;
+    transition: ease-in-out 200ms;
+    text-align: center;
+}
+
+/*just show this section to the screen*/
+.show-Who-Relationship {
+    transform: translate(-50%, -50%)scale(1);
+}
+
+/*the quote what are you to me*/
+.Who-Relationship h2 {
+    padding-top: 10px;
+    padding-bottom: 40pt;
+    font-family: sans-serif;
+    font-size: 24pt;
+}
+
+/*The Stranger button*/
+.Strangers {
+    width: 150px;
+    height: 50px;
+    font-size: 22pt;
+    font-family: sans-serif;
+    border: none;
+    border-width: 1px;
+    background:#f29074;
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+    border-radius: 4px;
+    display:block;
+    margin-left: 34%;
+    margin-bottom: 20px;
+}
+
+/*Whenever you hover the stranger btn it'll run this effects*/
+.Strangers:hover {
+    color: white;
+    background-color: #ee663f;
+}
+
+/*The friend btn*/
+.Friend {
+    width: 150px;
+    height: 50px;
+    font-size: 22pt;
+    font-family: sans-serif;
+    border: none;
+    border-width: 1px;
+    background:#f29074;
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+    border-radius: 4px;
+    display:block;
+    margin-left: 34%;
+    margin-bottom: 20px;
+}
+
+/*Whenever you hover the friend button it'll have this effect*/
+.Friend:hover {
+    color:white;
+    background: #ee663f;
+}
+
+/*The someone special btn*/
+.Special {
+    width: 250px;
+    height: 50px;
+    font-size: 22pt;
+    font-family: sans-serif;
+    border: none;
+    border-width: 1px;
+    background:#f29074;
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+    border-radius: 4px;
+    display:block;
+    margin-left: 23%;
+    margin-bottom: 20px;
+}
+
+/*whenver you hover the someone special btn it'll run this efects*/
+.Special:hover {
+    color:white;
+    background: #ee663f;
+}
+
+/*The stranger Section*/
+.The-Stranger {
+    width: 480px;
+    height: 400px;
+    background-color: #f6ae99;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    box-shadow: 2px 2px 4px;
+    transition: ease-in-out 200ms;
+    text-align: center;
+}
+
+/*shows the stranger section on the screen*/
+.show-The-Stranger {
+    transform: translate(-50%, -50%)scale(1);
+}
+
+/*The title part i guess kinda*/
+.The-Stranger h2 {
+    padding-top: 20pt;
+    font-family: sans-serif;
+    font-size: 24pt;
+    padding-bottom: 4px;
+}
+
+/*The notes to those who are trippin*/
+.The-Stranger p {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+
+/*the friend section*/
+.The-Friend {
+    width: 400px;
+    height: 560px;
+    background-color: #f6ae99;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    box-shadow: 2px 2px 4px;
+    transition: ease-in-out 200ms;
+    text-align: center;
+}
+
+/*show the friend section on the screen*/
+.show-The-Friend {
+    transform: translate(-50%, -50%)scale(1);
+}
+
+/*img in the friend section*/
+.The-Friend img {
+    margin-top: 12px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    box-shadow: 2px 2px 5px;
+    border: black solid;
+    border-width: 1px;
+}
+
+/*the title kinda but looks a bragging shit hahah*/
+.The-Friend h3 {
+    padding-top: 10pt;
+    font-family: sans-serif;
+    font-size: 24pt;
+}
+
+/*The words in friend section*/
+.The-Friend p {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+
+/*the baited special section*/
+.The-Special {
+    width: 480px;
+    height: 450px;
+    background-color: #f6ae99;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    box-shadow: 2px 2px 4px;
+    transition: ease-in-out 200ms;
+    text-align: center;
+}
+
+/*shows the baited special section*/
+.show-The-Special {
+    transform: translate(-50%, -50%)scale(1);
+}
+
+.The-Special h2 {
+    margin-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 24pt;
+}
+
+.The-Special img {
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    box-shadow: 2px 2px 5px;
+    border: black solid;
+    border-width: 1px;
+}
+
+.The-Special p {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
+.next-special2 {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 22pt;
+    font-family: sans-serif;
+    border: none;
+    background:#f6ae99;
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    border-radius: 4px;
+    display:block;
+    margin-left: 34%;
+}
+
+.next-special2:hover {
+    color: white;
+    background: #ee663f;
+}
+
+/*The part two of special*/
+.Special2 {
+    width: 480px;
+    height: 450px;
+    background-color: #f6ae99;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    box-shadow: 2px 2px 4px;
+    transition: ease-in-out 200ms;
+    text-align: center;
+}
+
+.show-Special2 {
+    transform: translate(-50%, -50%)scale(1);
+}
+
+.Special2 h2 {
+    margin-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 24pt;
+}
+
+.Special2 p {
+    margin-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
+.next-special3 {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 22pt;
+    font-family: sans-serif;
+    border: none;
+    background:#f6ae99;
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    border-radius: 4px;
+}
+
+.next-special3:hover {
+    color: white;
+    background: #ee663f;
+}
+
+/*special part 3*/
+.special3 {
+    width: 480px;
+    height: 450px;
+    background-color: #f6ae99;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    box-shadow: 2px 2px 4px;
+    transition: ease-in-out 200ms;
+    text-align: center; 
+}
+
+.show-special3 {
+    transform: translate(-50%, -50%)scale(1);
+}
+
+.special3 h2 {
+    margin-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 24pt;
+}
+
+.special3 p {
+    margin-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
+.next-special4 {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 22pt;
+    font-family: sans-serif;
+    border: none;
+    background:#f6ae99;
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    border-radius: 4px;
+}
+
+.next-special4:hover {
+    color: white;
+    background: #ee663f;
+}
+
+/*part 4 of special*/
+.special4 {
+    width: 480px;
+    height: 450px;
+    background-color: #f6ae99;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    box-shadow: 2px 2px 4px;
+    transition: ease-in-out 200ms;
+    text-align: center; 
+}
+
+.show-special4 {
+    transform: translate(-50%, -50%)scale(1);
+}
+
+.special4 h2 {
+    margin-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 24pt; 
+}
+
+.special4 p {
+    margin-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
+.next-special5 {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 22pt;
+    font-family: sans-serif;
+    border: none;
+    background:#f6ae99;
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    border-radius: 4px;
+}
+
+.next-special:hover {
+    color: white;
+    background: #ee663f; 
+}
+
+/*part 5 of special*/
+.special5 {
+    width: 480px;
+    height: 450px;
+    background-color: #f6ae99;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    box-shadow: 2px 2px 4px;
+    transition: ease-in-out 200ms;
+    text-align: center; 
+}
+
+.show-special5 {
+    transform: translate(-50%, -50%)scale(1);
+}
+
+.special5 h2 {
+    margin-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 24pt; 
+}
+
+.special5 img {
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    box-shadow: 2px 2px 5px;
+    border: black solid;
+    border-width: 1px;
+}
+
+.special5 p {
+    margin-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: sans-serif;
+    font-size: 20pt;
+}
